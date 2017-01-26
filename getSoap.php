@@ -14,5 +14,5 @@ if(!empty($_GET['LastName'])){
 
 //Call
 //localhost/getSoap.php?FirstName=example&LastName=example
-$user = new soapClient($FirstName,$LastName);
+$user = new phpToSoap($FirstName,$LastName);
 ?>

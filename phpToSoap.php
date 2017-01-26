@@ -1,5 +1,5 @@
 <?php
-class soapClient {
+class phpToSoap {
     function __construct($firstName,$lastName) {
        $this->seed = (string)rand(0, 1000000);
        $this->keyUrl = "";
